@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth Dhamodharan Candidate Website | Finance Data Analyst Intern</title>
+    <meta name="description" content="Portfolio for Corporate Intern Finance Data Analyst. Skills: SQL, Python, Excel, Accounting, Finance, Data Visualization.">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        
+        h1, h2, h3, h4 {
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px !important; 
+            margin-bottom: 15px;
+            color: #000;
+        }
+
+        
+        .header-wrapper {
+            background-color: #fff;
+            border-bottom: 3px solid #FDB913; 
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 800;
+            color: #000;
+            text-decoration: none;
+            letter-spacing: 1.5px !important;
+        }
+
+        .logo-text span {
+            color: #dfa000; 
+        }
+
+        .cta-button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #FDB913;
+            color: #000;
+        }
+
+        
+        .banner-slider {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=2880&q=80'); 
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+        }
+
+        .slide-content h1 {
+            color: #fff;
+            font-size: 48px;
+            border-left: 5px solid #FDB913;
+            padding-left: 20px;
+        }
+
+        .slide-content p {
+            font-size: 20px;
+            padding-left: 25px;
+            font-weight: 300;
+        }
+
+        
+        .section-wrapper {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+
+        .section-alt {
+            background-color: #f9f9f9;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        .col {
+            flex: 1;
+            padding: 0 15px;
+            min-width: 300px;
+        }
+
+        
+        .skill-card {
+            background: #fff;
+            border-left: 4px solid #FDB913;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .skill-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-list li {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .skill-list li:before {
+            content: "✓";
+            color: #FDB913;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        
+        .coursework-alert {
+            background-color: #e8f4fd;
+            border: 1px solid #2196f3;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        
+        .coursework-alert h3 {
+            color: #0d47a1;
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        
+        .project-item {
+            margin-bottom: 30px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .tech-tag {
+            background: #eee;
+            padding: 2px 8px;
+            font-size: 0.8em;
+            border-radius: 3px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+
+        
+        .diagram-container {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #FDB913;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .slide-content h1 { font-size: 32px; }
+            .row { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-wrapper">
+        <div class="container">
+            <div class="nav-flex">
+                <a href="#" class="logo-text">CANDIDATE <span>PROFILE</span></a>
+                <a href="https://www.prim.com/" target="_blank" class="cta-button">View Primoris Site</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-slider">
+        <div class="container">
+            <div class="slide-content">
+                <h1>DATA ANALYTICS.<br>ENERGIZED.</h1>
+                <p>Ready to support Primoris Services Corporation with SQL, Python, and Financial Analysis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Professional Profile</h2>
+                    <p>Detail oriented Business Computer Information Systems senior (May 2026 Grad, 3.2 GPA) bridging the gap between Technical Data Implementation and Financial Reporting.</p>
+                    <ul class="skill-list" style="border:none;">
+                        <li><strong>Passion:</strong> Solving real world problems using data analytics and AI applications.</li>
+                        <li><strong>Objective:</strong> To apply skills in SQL, Excel, and Python to support Primoris Finance Data Analytics projects.</li>
+                        <li><strong>Value Add:</strong> Hands on experience building automated systems for data tracking, forecasting support, and performance analysis.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Why This Candidate?</h2>
+                    <p>Matches the <strong>Corporate Intern - Finance Data Analyst</strong> requirements:</p>
+                    <ul class="skill-list">
+                        <li>Proficiency in Microsoft Office (Excel Certified Specialist).</li>
+                        <li>Superb verbal and written communication.</li>
+                        <li>Excellent research skills and adaptability.</li>
+                        <li>Self-motivated individual willing to collaborate across departments.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper section-alt">
+        <div class="container">
+            <h2>Core Competencies</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="skill-card">
+                        <h3>Technical Skills (Hard Skills)</h3>
+                        <ul class="skill-list">
+                            <li><strong>Data Analysis:</strong> Python, SQL (Complex Queries), R</li>
+                            <li><strong>Visualization:</strong> Tableau, Power BI, Excel (Advanced)</li>
+                            <li><strong>Development:</strong> Core Java, HTML, CSS, JavaScript</li>
+                            <li><strong>Tools:</strong> Jupyter Notebooks, IBM Db2, WinSCP</li>
+                            <li><strong>Office:</strong> Microsoft Word, PowerPoint, Excel Associate Certified</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skill-card">
+                        <h3>Business & Financial Domain</h3>
+                        <ul class="skill-list">
+                            <li>Financial Reporting & Forecasting</li>
+                            <li>Performance Analysis</li>
+                            <li>Business Statistics</li>
+                            <li>Research & Documentation</li>
+                            <li>Process Improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+             
+             <div class="diagram-caption" style="text-align:center; font-style:italic; margin-bottom:20px; color:#666;">
+                 *Visualizing the flow from Raw Data Intake (SQL/Excel) to Strategic Insights (Tableau/Reports).*
+             </div>
+
+            <div class="coursework-alert">
+                <h3><i class="fas fa-university"></i> Academic Business Foundation</h3>
+                <p><strong>Note to Hiring Team:</strong> The following relevant coursework is completed and verifiable (listed on LinkedIn/Transcript) to satisfy the Business Degree requirements:</p>
+                <div class="row">
+                    <div class="col">
+                        <ul class="skill-list">
+                            <li>Accounting Principles I & II</li>
+                            <li>Finance</li>
+                            <li>Principles of Microeconomics</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="skill-list">
+                            <li>Principles of Macroeconomics</li>
+                            <li>Analysis of Business Information Systems</li>
+                            <li>Business Statistics with Spreadsheets</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper">
+        <div class="container">
+            <h2>Relevant Project Experience</h2>
+            
+            <div class="project-item">
+                <div class="project-title">Product Profitability and Geographic Analysis (Tableau)</div>
+                <span class="tech-tag">Tableau</span> <span class="tech-tag">Data Visualization</span> <span class="tech-tag">Financial Analysis</span>
+                <ul>
+                    <li>Created an interactive dashboard visualizing sales and profit metrics across product subcategories.</li>
+                    <li>Incorporated color coded profit indicators to compare performance variances.</li>
+                    <li>Developed region specific filters to reveal profit deficits for strategic resource reallocation.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title">Campground Reservation Database System (SQL)</div>
+                <span class="tech-tag">SQL</span> <span class="tech-tag">IBM Db2</span> <span class="tech-tag">Data Integrity</span>
+                <ul>
+                    <li>Designed 4+ table schemas using keys and indexes to maintain data integrity.</li>
+                    <li>Developed 7+ complex SQL queries utilizing multi table joins for business intelligence.</li>
+                    <li>Analyzed reservation occupancy trends and amenity usage patterns.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title">Library Management System (Python)</div>
+                <span class="tech-tag">Python</span> <span class="tech-tag">Automation</span> <span class="tech-tag">JSON</span>
+                <ul>
+                    <li>Implemented CRUD operations to manage inventory and loan records.</li>
+                    <li>Automated loan status tracking and overdue fine calculations.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-wrapper section-alt">
+        <div class="container">
+            <h2>Certifications & Simulation</h2>
+            <div class="row">
+                <div class="col">
+                    <ul class="skill-list">
+                        <li><strong>Microsoft Office Specialist:</strong> Excel Associate (Excel 2019)</li>
+                        <li><strong>IBM Z Xplore Advanced Badge:</strong> Data Set Management, JCL, COBOL</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="skill-list">
+                        <li><strong>Quantium Data Analytics Job Simulation:</strong> Data Validation, Statistical Analysis</li>
+                        <li><strong>Boston Consulting Group Data Science Simulation:</strong> Model Assessment, Hypothesis Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Contact Information</h3>
+            <p>University of North Texas | Denton, TX</p>
+            <p>
+                <a>hemanthdhamodharan@my.unt.edu</a> | 
+                <a>(973) 960-8081</a>
+            </p>
+            <p style="font-size: 12px; margin-top: 20px; color: #777;">This portfolio was created for the Primoris Services Corporation application.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
